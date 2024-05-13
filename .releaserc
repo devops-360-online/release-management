@@ -1,0 +1,11 @@
+{
+  "tagFormat": "${version}",
+  "repositoryUrl": "https://github.com/devops-360-online/release-management.git",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github"
+  ],
+  "branches": ["main"]
+}
